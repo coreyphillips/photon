@@ -1,0 +1,19 @@
+{
+  "Constants": {
+    "actions": {
+      "UPDATE_SETTINGS": "UPDATE_SETTINGS",
+      "UPDATE_THEME": "UPDATE_THEME",
+      "UPDATE_WALLET": "UPDATE_WALLET"
+    },
+    "colors": {
+      "black": "#1B1A1B",
+      "gray": "#f0f0f0",
+      "lightGray": "#efefef",
+      "darkGray": "#6e6e6e",
+      "white": "#f3f3f3",
+      "green": "#7bb898",
+      "red": "#904f54",
+      "yellow": "#f3b63b"
+    }
+  }
+}
