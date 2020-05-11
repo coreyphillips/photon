@@ -35,7 +35,7 @@ module.exports = {
     "no-empty-pattern": 0,
     "react/jsx-no-duplicate-props": [2, {"ignoreCase": true}],
     "react-native/no-unused-styles": 1,
-    "react-native/no-raw-text": 2,
+    "react-native/no-raw-text": 0,
     "react/jsx-equals-spacing": [2, "never"],
     "react/no-unsafe": [2, {"checkAliases": true}],
     "react/jsx-curly-spacing": [2, {
