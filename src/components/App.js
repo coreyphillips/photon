@@ -5,8 +5,6 @@
 import React, {memo, useLayoutEffect} from 'react';
 import {
 	Keyboard,
-	KeyboardAvoidingView,
-	Platform,
 	StyleSheet
 } from 'react-native';
 import {View, ScrollView} from "../styles/components";
@@ -39,19 +37,15 @@ const _App = (props) => {
 	
 	return (
 		<ThemeProvider style={styles.container} theme={props.settings.theme}>
-			<View style={styles.container}>
-				<KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === "ios" ? "padding" : "height"}>
-					<ScrollView>
-						<View style={styles.content} onPress={() => Keyboard.dismiss()}>
-						
-							<Header />
-							<Info />
-							<FormContent />
-							
-						</View>
-					</ScrollView>
-				</KeyboardAvoidingView>
-			</View>
+			<ScrollView>
+				<View style={styles.content} onPress={() => Keyboard.dismiss()}>
+					
+					<Header />
+					<Info />
+					<FormContent />
+				
+				</View>
+			</ScrollView>
 		</ThemeProvider>
 	);
 };
@@ -73,7 +67,8 @@ const App = memo(
 		if (!prevProps || !nextProps) {
 			return true;
 		}
-		return prevProps === nextProps;
+		return prevProps.settings === nextProps.settings &&
+			prevProps.wallet === nextProps.wallet;
 	},
 );
 

@@ -60,9 +60,7 @@ const styles = StyleSheet.create({
 const FormContent = memo(
 	_FormContent,
 	(prevProps, nextProps) => {
-		if (!prevProps || !nextProps) {
-			return true;
-		}
+		if (!prevProps || !nextProps) return true;
 		return prevProps === nextProps;
 	},
 );

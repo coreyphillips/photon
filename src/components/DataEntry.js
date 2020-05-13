@@ -31,7 +31,8 @@ const DataEntry = memo(
 		if (!prevProps || !nextProps) {
 			return true;
 		}
-		return prevProps === nextProps;
+		return prevProps.title === nextProps.title &&
+			prevProps.value === nextProps.value;
 	},
 );
 

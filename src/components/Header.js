@@ -54,7 +54,9 @@ const Header = memo(
 	_Header,
 	(prevProps, nextProps) => {
 		if (!prevProps || !nextProps) return true;
-		return prevProps === nextProps;
+		return prevProps.wallet === nextProps.wallet &&
+			prevProps.settings === nextProps.settings &&
+			prevProps.theme === nextProps.theme;
 	},
 );
 

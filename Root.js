@@ -28,7 +28,7 @@ const persistor = persistStore(store);
 
 const Root = () => {
 	return (
-		<Provider store={store} value={""}>
+		<Provider store={store}>
 			<PersistGate
 				loading={<View />}
 				onBeforeLift={null}
