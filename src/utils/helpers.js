@@ -5,13 +5,11 @@ const {
 	}
 } = require("../../ProjectData.json");
 
-export const isOnline = async (): boolean => {
-	let isConnected = true;
+export const isOnline = async () => {
 	try {
 		const connectionInfo = await NetInfo.fetch();
-		if (connectionInfo.type === "none" || connectionInfo.type === "unknown") isConnected = false;
-	} catch (e) {}
-	return isConnected;
+		return connectionInfo.isConnected;
+	} catch {return false;}
 };
 
 export const getStatusInfo = ({ startedLnd = false, syncedToChain = false, isOnline = true }):
