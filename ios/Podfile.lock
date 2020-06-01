@@ -304,7 +304,7 @@ PODS:
     - ReactCommon/callinvoker (= 0.62.2)
   - RNCAsyncStorage (1.10.0):
     - React
-  - RNKeychain (6.0.0):
+  - RNKeychain (4.0.5):
     - React
   - RNReactNativeHapticFeedback (1.9.0):
     - React
@@ -492,7 +492,7 @@ SPEC CHECKSUMS:
   React-RCTVibration: 4356114dbcba4ce66991096e51a66e61eda51256
   ReactCommon: ed4e11d27609d571e7eee8b65548efc191116eb3
   RNCAsyncStorage: 6d99641f8e6f15d169d695d8ef184bf187903f11
-  RNKeychain: bf2d7e9a0ae7a073c07770dd2aa6d11c67581733
+  RNKeychain: 840f8e6f13be0576202aefcdffd26a4f54bfe7b5
   RNReactNativeHapticFeedback: 2566b468cc8d0e7bb2f84b23adc0f4614594d071
   RNReanimated: 955cf4068714003d2f1a6e2bae3fb1118f359aff
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4

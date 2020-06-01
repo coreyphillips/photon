@@ -5943,10 +5943,10 @@ react-native-haptic-feedback@^1.9.0:
   resolved "https://registry.yarnpkg.com/react-native-haptic-feedback/-/react-native-haptic-feedback-1.9.0.tgz#7d62c54536f04dd5d8f1c2bb8ee444009f2294b9"
   integrity sha512-tIRbq8k7HK9AoyvXrOHUEFmJd65ZAh1HP9mDyD/gDisG1ApY4Im9UKn0q0of9z7s8AJY3sZA9GMuSKdSBGdKKQ==
 
-react-native-keychain@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-keychain/-/react-native-keychain-6.0.0.tgz#687379dd8468e8c37caa3c4d1c91393c6e04cb1d"
-  integrity sha512-5jt2oS9WNBT/GXBRdb+9KHTQokI1eMRDa50aQFR1koXqUpkULhvxItgQ2CKTd+ZchZQK/hn85qHQOs/gWgUGYA==
+react-native-keychain@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-keychain/-/react-native-keychain-4.0.5.tgz#6d3aef8f2789fc0dfa8149b8400d82ff77be361a"
+  integrity sha512-TbiO8AO055EPjaxIuKxrCEOB4r81uQCVDFbtcs+e4pEOHxf6z3JgDC0UU0poJElKfCh37b+TFRxQhg6DbsYJBA==
 
 react-native-modal@^11.5.6:
   version "11.5.6"
