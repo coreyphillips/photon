@@ -15,7 +15,7 @@ A Minimalistic Lightning Wallet
     cd photon
     yarn install
     ```
-3. Add the Lndmobile.aar & Lndmobile.framework files to the project:
+3. Add the Lndmobile.aar file to the project:
     - Add the Lndmobile.aar file to `react-native-lightning/android/Lndmobile`
 
 4. Start the project:
